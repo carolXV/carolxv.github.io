@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Estilos gerais */
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 30pt;
@@ -30,5 +32,24 @@ body {
     border-radius: 100px;
     text-decoration: none;
     text-transform: uppercase;
+}
 
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 20pt;
+    }
+
+    #confirme {
+        width: 90%;
+    }
+
+    #carol {
+        font-size: 30pt;
+    }
+
+    #botao {
+        padding: 10px 15px;
+        font-size: 15pt;
+    }
 }
