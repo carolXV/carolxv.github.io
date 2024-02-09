@@ -5,6 +5,14 @@
 body {
     font-family: Helvetica, sans-serif;
     font-size: 30pt;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#cabecalho {
+    background-color: #a67c00;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #confirme {
@@ -22,7 +30,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     color: white;
-    background-color: brown;
+    background-color: #a67c00;
     padding: 15px 20px;
     border-radius: 100px;
     text-decoration: none;
@@ -33,6 +41,20 @@ body {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 20pt;
+    }
+
+    #cabecalho {
+        background-color: #a67c00;
+        text-align: center;
+        margin-left: -2%;
+        vertical-align: middle;
+        margin-top: -1.6%;
+        width: 104%;
+    }
+
+    #caroltitulo {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
     }
 
     #confirme {
