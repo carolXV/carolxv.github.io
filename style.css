@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 30pt;
+} 
+
+#foto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#confirme {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+#carol {
+    font-size: 49pt;
+}
+
+#botao {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: brown;
+    padding: 15px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
