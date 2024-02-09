@@ -12,6 +12,7 @@ body {
 #cabecalho {
     background-image: url("https://carolxv.github.io/imagens/header.png");
     text-align: center;
+    background-position: center;
     vertical-align: middle;
 }
 
