@@ -28,7 +28,17 @@ body {
 }
 
 #carol {
-    font-size: 49pt;
+    font-size: 30pt;
+    font-family: "Amarillo";
+    margin-bottom: -70px;
+    margin-left: -20px;
+    display: block;
+}
+
+#anos {
+    font-size: 20pt;
+    font-family: 'Amarillo';
+    margin-left: 80px;
     display: block;
 }
 
