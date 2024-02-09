@@ -29,6 +29,7 @@ body {
 
 #carol {
     font-size: 49pt;
+    display: block;
 }
 
 #botao {
@@ -60,11 +61,6 @@ body {
         height: 320px;
     }
 
-    #caroltitulo {
-        font-family: 'Times New Roman', Times, serif;
-        color: white;
-    }
-
     #confirme {
         width: 80%;
     }
@@ -74,12 +70,14 @@ body {
         font-family: "Amarillo";
         margin-bottom: -70px;
         margin-left: -20px;
+        display: block;
     }
 
     #anos {
         font-size: 20pt;
         font-family: 'Amarillo';
         margin-left: 80px;
+        display: block;
     }
 
     #xv {
