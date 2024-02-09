@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Amarillo";
+    src: url("fonts/Amarillo.ttf") format('truetype');
+}
+
+/* Estilos gerais */
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 30pt;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#confirme {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#cabecalho {
+    background-color: #a67c00;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#carol {
+    font-size: 30pt;
+    font-family: "Amarillo";
+    margin-bottom: -70px;
+    margin-left: -20px;
+    display: block;
+}
+
+#anos {
+    font-size: 20pt;
+    font-family: 'Amarillo';
+    margin-left: 80px;
+    display: block;
+}
+
+#botao {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #a67c00;
+    padding: 15px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.insta {
+    margin-top: 1000px;
+}
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+    #insta {
+        margin-top: 50px;
+    }
+}
