@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "Amarillo";
+    src: url("https://carolxv.github.io/fonts/Amarillo.ttf");
+}
 
 /* Estilos gerais */
 
@@ -67,7 +71,7 @@ body {
 
     #carol {
         font-size: 30pt;
-        font-family: 'Amarillo';
+        font-family: "Amarillo";
         margin-bottom: -70px;
         margin-left: -20px;
     }
