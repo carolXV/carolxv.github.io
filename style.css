@@ -66,8 +66,16 @@ body {
     }
 
     #carol {
-        font-size: 24pt;
+        font-size: 30pt;
         font-family: 'Amarillo';
+        margin-bottom: -70px;
+        margin-left: -20px;
+    }
+
+    #anos {
+        font-size: 20pt;
+        font-family: 'Amarillo';
+        margin-left: 80px;
     }
 
     #xv {
