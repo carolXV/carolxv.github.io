@@ -1,6 +1,6 @@
-/* PADRAO */
 @charset "UTF-8";
 
+/* padrao */
 #textos {
     padding: 15px;
     border: 3px solid #ad1d16;
@@ -16,10 +16,6 @@
 #musical {
     text-align: center;
     font-size: 29pt;
-}
-
-#resumo {
-
 }
 
 /*APENAS CELULAR */
@@ -40,9 +36,5 @@
     #musical {
         text-align: center;
         font-size: 29pt;
-    }
-
-    #resumo {
-
     }
 }
