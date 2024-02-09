@@ -75,6 +75,10 @@ body {
         width: 80%;
     }
 
+    #logo {
+        width: 50%;
+    }
+
     #carol {
         font-size: 30pt;
         font-family: "Amarillo";
