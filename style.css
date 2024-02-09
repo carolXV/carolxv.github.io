@@ -9,8 +9,6 @@
 body {
     font-family: Helvetica, sans-serif;
     font-size: 30pt;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 #fotocarol {
