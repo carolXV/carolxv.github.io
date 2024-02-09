@@ -10,7 +10,7 @@ body {
 }
 
 #cabecalho {
-    background-image: url("_imagens/header.png");
+    background-image: url("imagens/header.png");
     text-align: center;
     vertical-align: middle;
 }
@@ -44,7 +44,7 @@ body {
     }
 
     #cabecalho {
-        background-image: url("_imagens/header.png");
+        background-image: url("imagens/header.png");
         text-align: center;
         margin-left: -2%;
         vertical-align: middle;
