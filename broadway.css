@@ -21,7 +21,7 @@
         text-align: center;
         font-family: Helvetica, sans-serif;
         padding: 10px;
-
+        color: #ad1d16;
     }
 
     #textos {
@@ -34,10 +34,38 @@
 
     #tituloMusical {
         border-bottom: 3px solid #ad1e1635;
+        font-family: Helvetica, sans-serif;
     }
 
     #musical {
         text-align: center;
         font-size: 29pt;
+    }
+
+    #voltar {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #botao {
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        background-color:#a67c00;
+        border-radius: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+        text-decoration: none;
+        transition: .2s;
+    }
+
+    #botao:active {
+        opacity: .7;
+    }
+
+    #seta {
+        font-size: 15pt;
+        font-weight: bolder;
     }
 }

@@ -27,6 +27,14 @@ body {
     width: 80%;
 }
 
+h2 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    color: #ad1d16;
+    margin-bottom: -5%;
+}
+
 #carol {
     font-size: 30pt;
     font-family: "Amarillo";
@@ -42,6 +50,23 @@ body {
     display: block;
 }
 
+#dicas {
+    text-align: center;
+    font-size: 15pt;
+    list-style: square;
+    list-style-position: initial;
+    margin-bottom: 10%;
+}
+
+#azul {
+    color:#a67c00;
+}
+
+.insta {
+    margin-top: 1000px;
+    margin-bottom: 30%;
+}
+
 #botao {
     display: inline-block;
     margin-top: 10px;
@@ -52,14 +77,87 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
-.insta {
-    margin-top: 1000px;
+#voltar {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-
 /* Estilos para telas menores */
 @media only screen and (max-width: 600px) {
-    #insta {
+    body {
+        font-family: Helvetica, sans-serif;
+        font-size: 30pt;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    #confirme {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    #cabecalho {
+        background-color: #a67c00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        padding: 10px;
+        color: #ad1d16;
+        margin-bottom: -5%;
+    }
+    
+    #carol {
+        font-size: 30pt;
+        font-family: "Amarillo";
+        margin-bottom: -70px;
+        margin-left: -20px;
+        display: block;
+    }
+    
+    #anos {
+        font-size: 20pt;
+        font-family: 'Amarillo';
+        margin-left: 80px;
+        display: block;
+    }
+    
+    #dicas {
+        text-align: center;
+        font-size: 15pt;
+        list-style: square;
+        list-style-position: initial;
+        margin-bottom: 10%;
+    }
+    
+    #azul {
+        color:#a67c00;
+    }
+    
+    .insta {
+        margin-top: 1000px;
+        margin-bottom: 30%;
+    }
+    
+    #botao {
+        display: inline-block;
+        margin-top: 10px;
+        color: white;
+        background-color: #a67c00;
+        padding: 15px 20px;
+        border-radius: 100px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #voltar {
+        text-align: center;
+        margin-bottom: 50px;
         margin-top: 50px;
     }
 }
