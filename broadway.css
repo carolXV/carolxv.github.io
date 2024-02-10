@@ -45,6 +45,18 @@
         margin-top: -15%;
     }
 
+    #logowicked {
+        position: absolute;
+        display: flex;
+        left: 73%;
+        right: 0%;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10%;
+        transform: rotate(15deg);
+    }
+
     /* CADA MUSICAL COM SEU BG */
     .hamilton {
         background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/Hamilton-poster.jpg");
