@@ -22,19 +22,92 @@
         font-family: Helvetica, sans-serif;
         padding: 10px;
         color: #ad1d16;
+        margin-bottom: 20%;
     }
 
     #textos {
         padding: 15px;
-        border: 3px solid #ad1d16;
+        border: 3px solid #a67c00;
         margin: 30px;
         text-align: justify;
         border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.4);
     }
 
+    #logohamilton {
+        position: absolute;
+        display: flex;
+        left: 0;
+        right: 0;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -15%;
+    }
+
+    /* CADA MUSICAL COM SEU BG */
+    .hamilton {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/Hamilton-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .chicago {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/chicago-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .beetlejuice {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/beetlejuice-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .wicked {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/wicked-poster.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .chorus {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/chorus-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .heathers {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/heathers-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .mammamia {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)), url("imagens/mammamia-poster.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+
+
     #tituloMusical {
-        border-bottom: 3px solid #ad1e1635;
+        border-bottom: 3px solid #a67c00;
         font-family: Helvetica, sans-serif;
+        opacity: 1;
     }
 
     #musical {
