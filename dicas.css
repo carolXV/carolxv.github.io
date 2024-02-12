@@ -49,22 +49,23 @@
     }
 
     #duvida {
-        border-bottom: 3px double #a67c00;
+        border-bottom: 5px double #a67c00;
     }
 
     #lista {
-        border: 3px solid #a67c00;
         display: block;
         text-align: center;
     }
 
-
-    #lista ul {
-        display: inline-block;
-        text-align: center;
+    #lista p {
+        font-size: 14pt;
     }
 
-
+    #marca {
+        color: grey;
+        font-style: italic;
+        font-size: 13pt; 
+    }
 
     #voltar {
         text-align: center;
